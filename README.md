@@ -36,7 +36,7 @@ JWT_SECRET=supersecretkey
   npm run start
 ```
 
-- Setelah server sudah jalan, selanjutnya buka folder frontend-react dengan visual studio code atau lainnya kemudian dan buka terminal
+- Setelah server sudah jalan, selanjutnya buka folder frontend-react dengan visual studio code atau lainnya kemudian buka terminal
 
 - Install dependencies dengan perintah
 
@@ -66,8 +66,8 @@ JWT_SECRET=supersecretkey
 
 ```
 [React App]  ⇄  [Express Server]  ⇄  [Database (MySQL)]
-     ↑                 ↑
- (Frontend)       (Auth Logic)
+     ↑                  ↑
+ (Frontend)         (Backend)
 ```
 
 ---
