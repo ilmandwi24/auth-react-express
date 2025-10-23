@@ -12,7 +12,10 @@ Website auth login dengan **React** untuk frontend dan **Express.js** sebagai ba
 
 - Import atau load file auth_db.sql kemudian run sql
 
-- Masuk ke folder backend-express, kemudian buat file .env dan isikan dengan data berikut
+
+- Setelah itu buka folder backend-express dengan visual studio code 
+
+- kemudian buat file .env dan isikan dengan data berikut
 ```env
 PORT=3000
 DB_HOST=localhost
@@ -22,7 +25,7 @@ DB_NAME=auth_db
 JWT_SECRET=supersecretkey
 ```
 
-- Setelah itu buka folder backend-express dengan visual studio code dan buka terminal
+- Berikutnya buka terminal pada visual studio code
 
 - Install dependencies dengan perintah
 
@@ -48,6 +51,12 @@ JWT_SECRET=supersecretkey
 
 ```bash
   npm run dev
+```
+
+- buka url berikut dengan browser atau bisa lihat url local yang ditampilkan pada terminal
+
+```bash
+http://localhost:5173/
 ```
 
 ---

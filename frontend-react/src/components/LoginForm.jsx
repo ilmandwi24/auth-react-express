@@ -75,7 +75,7 @@ export function LoginForm() {
                   id="email"
                   type="email"
                   placeholder="youremail@gmail.com"
-                  {...register("email", { required: "Email is required" })}
+                  {...register("email", { required: "Email harus diisi" })}
                 />
                 {errors.email && (
                   <span className="text-red-500 text-sm">
@@ -92,11 +92,7 @@ export function LoginForm() {
                   type={showPassword ? "text" : "password"}
                   placeholder="Masukkan password"
                   {...register("password", {
-                    required: "Password is required",
-                    minLength: {
-                      value: 5,
-                      message: "Password must be at least 5 characters",
-                    },
+                    required: "Password harus diisi"              
                   })}
                 />
                 {errors.password && (
