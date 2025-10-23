@@ -4,7 +4,7 @@ Website auth login dengan **React** untuk frontend dan **Express.js** sebagai ba
 
 ## 🚀 Cara menjalankan projek di lokal
 
-- Download atau Clone the project
+- Download atau clone projeknya
 
 ```bash
   git clone https://github.com/ilmandwi24/auth-react-express.git
